@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto - FlyFinder</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>FlyFinder</h1>
+            <nav >
+                <ul id="enlace">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>¡Ponte en contacto con nosotros!</h2>
+            <p>Estamos aquí para ayudarte con cualquier duda sobre tu búsqueda de vuelos.</p>
+        </div>
+    </section>
+    <div class="wrapper">
+    <!-- Formulario de Contacto -->
+        <section class="contact-form">
+            <div class="container_contacto">
+                <h3>Envíanos un mensaje</h3>
+                <form method="post"> 
+                    <label for="name">Nombre:</label> 
+                    <input type="text" id="name" name="name" required> 
+                    
+                    <label for="email">Email:</label> 
+                    <input type="email" id="email" name="email" required> 
+                    
+                    <label for="message">Mensaje:</label> 
+                    <textarea id="message" name="message" rows="4" required></textarea> 
+                    <button type="submit">Enviar</button>
+            </div>
+        </section>
+
+        <!-- Mapa de Ubicación -->
+        <section class="location">
+            <div class="container_ubicacion">
+                <h3>Encuentra nuestra oficina</h3>
+                <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25352.761284023727!2d-5.931007999999999!3d37.411225599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12661c8d849bb9%3A0x1527e77a0fb273a!2sAeropuerto%20de%20Sevilla!5e0!3m2!1ses!2ses!4v1732262105844!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> 
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos en <a href="mailto:info@flyfinder.com">info@flyfinder.com</a>.</p>
+        
+    </footer>
+</body>
+</html>
