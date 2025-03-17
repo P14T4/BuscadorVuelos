@@ -7,5 +7,3 @@ Interfaz intuitiva: Diseño moderno y fácil de usar para una experiencia fluida
 Objetivo:
 FlyFinder busca simplificar el proceso de planificación de viajes, conectando a los usuarios con la mejor información y opciones de vuelos disponibles en el mercado.
 
-ENLACE YT
-https://youtu.be/URQfVqZF2k8
